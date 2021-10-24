@@ -1,3 +1,8 @@
+'''
+This script was the first idea, first scratching. The MONITOR file is more complete, developed and work in a stand alone mode.
+I will keep this file just as a register, but the project will be developed from MONITOR.PY.
+'''
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import time
