@@ -46,7 +46,7 @@ def getquote():
         quote1 = soup.find_all('span', class_ = 'value')
         mkt_time = str((quote[44].contents[0]))
         #using the new filter
-        mkt_quote = str((quote1[6].contents[0]))
+        mkt_quote = str((quote1[5].contents[0]))
         #still using the old one, but now this data is inside a span
         mkt_perc = str(soup.select_one("span[class*=change--percent--q]").text)
         info = f'     {mkt_quote}          {mkt_perc}           {mkt_time}'
