@@ -1,4 +1,5 @@
 # BTCPLN_monitor
-This is a **bitcoin in polish zlots** monitor to help to trade.
-Basicly it makes some maths treats on some scraped data from one website.
+This project started with a **bitcoin in polish zlots** monitor to help to trade.
+With the passing time it became a **market monitor** with more assets included from the market.
+
 _It is worth to saying it is under construction._
